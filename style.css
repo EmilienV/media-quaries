@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) {
+body{
+background: red;
+font-size: small;
+}
+}
+@media screen and (max-width: 1024px) and (min-width: 480px) {
+    body{
+background: green;
+font-size: medium;
+    }
+    #small{
+    width: 66%;
+    }
+    #medium{
+    width: 33% ; 
+    }
+/*#small, #large{
+    display: none;
+}*/
+}
+@media screen and (min-width: 1024px) {
+body{
+    background: blue;
+    font-size: large;
+}
+#small,
+#medium,
+#large{
+    width: 33%;
+    display: inline-block;
+}
+/*#small, #medium{
+    display: none;
+}*/
+}
